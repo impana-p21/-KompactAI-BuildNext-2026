@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedProof AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="badge">BUILD NEXT 2026</div>
+
+        <h1>MedProof <span>AI</span></h1>
+
+        <p class="subtitle">
+            Evidence-grounded medical information assistant
+        </p>
+
+        <section class="card">
+            <label for="question">Ask a question</label>
+
+            <textarea
+                id="question"
+                placeholder="Example: What is the purpose of vaccination?"
+            ></textarea>
+
+            <button id="askButton" onclick="askQuestion()">
+                Find Evidence
+            </button>
+
+            <p class="disclaimer">
+                Educational prototype only. Not for diagnosis or treatment.
+            </p>
+        </section>
+
+        <section id="results" class="results" hidden>
+            <h2>Results</h2>
+            <p id="status"></p>
+            <p id="answer"></p>
+            <div id="sources"></div>
+        </section>
+    </main>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
