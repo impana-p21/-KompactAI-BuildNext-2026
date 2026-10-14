@@ -1,0 +1,23 @@
+[
+  {
+    "id": "MED001",
+    "topic": "Vaccination",
+    "content": "Vaccines help the immune system recognize and defend against specific infectious diseases. Their effectiveness and recommended use depend on the vaccine and the individual.",
+    "source": "World Health Organization",
+    "url": "https://www.who.int/health-topics/vaccines-and-immunization"
+  },
+  {
+    "id": "MED002",
+    "topic": "Antibiotics",
+    "content": "Antibiotics are medicines used to treat certain bacterial infections. They do not work against viral infections such as the common cold or influenza.",
+    "source": "World Health Organization",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+  },
+  {
+    "id": "MED003",
+    "topic": "Hand Hygiene",
+    "content": "Hand hygiene is an important measure for preventing the spread of infections. Washing hands with soap and water helps remove germs.",
+    "source": "Centers for Disease Control and Prevention",
+    "url": "https://www.cdc.gov/clean-hands/"
+  }
+]
